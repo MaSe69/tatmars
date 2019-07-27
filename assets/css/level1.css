@@ -1,0 +1,92 @@
+/* First custom css to overwrite bootstrap 4.x */
+:root {     
+    --blue100: #051243!important;
+    --blue90: #061f80!important;
+    --blue80: #0530ad!important;
+    --blue70: #054ada!important;
+    --blue60: #0062ff!important;
+    --blue50: #408bfc!important;
+    --blue40: #6ea6ff!important;
+    --blue30: #97c1ff!important;
+    --blue20: #c9deff!important;
+    --blue10: #edf4ff!important;
+}
+
+body {
+    height:       100%;
+    font-size:    100%;
+    line-height: 1.62em;
+  }
+  
+background {
+  display: block;
+  background: red;
+  background: linear-gradient(red, yellow lin);
+  background: url(../layoutimages/frbackground.JPG);
+  background: linear-gradient( var(--blue30), var(--blue90));
+  height:     100%;
+}
+
+.col-md-2 {
+    background: linear-gradient( var(--blue30), var(--blue90));  
+}
+
+
+
+h1  {
+    margin-top: 40px;
+    color: var(--blue90);
+    font-size: 32px;
+}
+
+h2  {
+    color: var(--blue80);
+    font-size: 24px;
+}
+
+  /* Chapter - Start */
+  h4.chapter {
+    margin-left: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color:            var(--blue90);
+  } 
+  
+  li.chapter {
+    margin-left: 16px;
+    list-style-type: none;
+  }
+  
+  p.chapter {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  a.chapter { 
+    color:            var(--blue90);
+    text-align: left;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color:            var(--blue90);
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color:            var(--blue20);
+    background-color: var(--blue90); 
+    text-decoration:none;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: var(--blue20); 
+    background-color: var(--blue100); 
+  }
+    /* Chapter - End */
+  
+
+
