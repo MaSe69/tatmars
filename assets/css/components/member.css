@@ -1,0 +1,105 @@
+@import '../utils/colors.css';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav h2 {
+  margin: 0.8em 0 .0em 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+nav h3 {
+  margin: 0.8em 0 .0em 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+/* member */
+.member_background {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  opacity: 0.5;
+}
+
+.nav_col_left {
+  flex: 2;
+  flex: 0 0 40%;
+
+  order: 1;
+}
+
+.nav_col_right {
+  flex: 1;
+  flex: 0 0 20%;
+  order: 2;
+}
+
+/* .sidebar_right {
+  flex: 1;
+  flex: 0 0 20%;
+  order: 1;
+} */
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+li:hover {
+  background-color: var(--blue10);
+}    
+
+a.nav_member, a.nav_member:visited {
+  color: white; 
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a.nav_member:hover {
+  color: var(--blue90);
+}    
+
+
+/* Middle */
+.middle_layout {
+  display: flex;
+  max-width: 2600px;
+  background-color: var(--blue10);
+  color: black;
+  line-height: 1.65;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+/* Login  */
+.label-login {
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.button-login { 
+  background-color: var(--main-bg-color);
+  opacity: 0.8;  
+  border: black;
+  color: whitesmoke;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: 900; 
+  font-size: 1.3em;
+  width: 100%;   
+}

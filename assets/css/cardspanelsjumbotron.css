@@ -1,0 +1,180 @@
+/* First custom css to overwrite bootstrap 4.x */
+:root { font: 18px/10px "Roboto", sans-serif; 
+    --card-bg-color: #1e5348!important;
+    --card-color: #dfe9e7!important;
+    --kubernetes-blue: #3B5EE9;
+    --image-white: #E4E5EA;
+    --image-blue: #005564;
+}  
+
+body {
+    font-size: 100%;
+}
+
+.breadcrumb {
+    background:#1e5348!important;
+    color: whitesmoke;
+    font-size: 1.5em;
+    opacity: 0.7; 
+  }
+
+  
+.bg-login {
+    background: url('../layoutimages/background_water.jpg') no-repeat; width:100%; height: 100vh;
+}
+
+.panel-container{
+    background: none;    
+    border:2px;
+    margin-top:5vh;
+    -webkit-box-shadow: 15px 17px 13px 17px rgba(0,0,0,0.63);
+    -moz-box-shadow: 15px 17px 13px 17px rgba(0,0,0,0.63);
+    box-shadow: 15px 17px 13px 17px rgba(0,0,0,0.63);
+}
+
+
+.panel-heading{
+    background:#1e5348!important;
+    color: white;
+    opacity: 0.8;    
+}
+
+.panel-transparent .panel-body{
+    background: rgba(46, 51, 56, 0.2)!important;
+    color: black;
+    font-size: 1.5em;    
+    opacity: 0.9;      
+}
+
+.label-login {
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.button-login { 
+    background-color: var(--main-bg-color);
+    opacity: 0.8;  
+    border: black;
+    color: whitesmoke;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: 900; 
+    font-size: 1.3em;
+    width: 100%;   
+  }
+
+
+
+/* Jumbotron */
+.jumbotron{
+    background-color: var(--main-bg-color);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    color: 0a410e;
+    padding-top: 2 rem;
+    padding: 0rem 5rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;    
+    border-radius: 0.0rem;
+}
+.jumbotron-backgroundimage{
+    background-image: url(../IMAGES/sea_green.JPG);
+} 
+.jumbotron-superheader {
+    font-size: 3em;
+    font-family: 'Indie Flower';    
+    color: var(--text-color);
+}   
+#jumbotron-header{
+    font-size: 5em;
+    /* vertical-align: middle; */
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Pacifico';
+    font-family: 'Indie Flower';
+    font-family: 'Kanit';  
+    font-family: 'Baloo Bhai';
+    text-align: 'center';
+    /* padding-left: 15px; */
+    /* color: var(--text-color); */
+    color: #3B5EE9;
+}   
+
+
+/* Cards */
+
+.card-header {
+  background-color: var(--card-bg-color);
+  color: var(--card-color); 
+  text-align: center;  
+  padding: 0.5em 2.2rem;    
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.125);   */
+} 
+
+.card-title {
+  font-family: 'Indie Flower';
+  font-size: 1.5em;
+  font-weight: 900;
+  color:whitesmoke;
+  margin-bottom: 0.15rem;  
+}
+
+.card-body {
+    background-color: var(--card-color);  
+    color: var(--card-bg-color); 
+    text-align: center;
+    padding: 1.25rem;
+  }
+
+.card-footer {
+    background-color:var(--card-bg-color);
+    color: var(--card-color); 
+    text-align: center; 
+    padding: 0.5em 2.2rem;    
+    /* padding: 1.25rem; */
+  }
+
+
+ .card_button { 
+    background-color: var(--card-color);
+    padding: 0.5em 32px;
+    text-align: center;
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 900;    
+  }
+
+  .card_button:hover { 
+    background-color: rgb(174, 199, 173);
+  }
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+/* Texts on other pages */
+
+p.fullstackcode {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #15411f;
+    color: rgb(26, 23, 23);
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 0.1em 0.1em 1.1em 2.6em; /* trbl */
+    display: block;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.form-control {
+    height: 3em;
+    line-height: 3em;
+  }
