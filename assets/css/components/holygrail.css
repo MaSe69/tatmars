@@ -7,11 +7,10 @@
  * 3. Use `%` instead of `vh` since `vh` is buggy in older mobile Safari.
  */
 
- /* @import '{{ site.baseUrl }}assets/css/utils/colors.css'; */
  @import '../utils/colors.css';
 
 
-:root { 
+/* :root { 
   --blue10: #edf4ff!important;
   --blue20: #c9deff!important;
   --blue30: #97c1ff!important;
@@ -23,7 +22,7 @@
   --blue90: #061f80!important;
   --blue100: #051243!important;
   --prussianblue: #113265!important;
-  }
+  } */
 
 
 * {
@@ -40,6 +39,7 @@
     max-width: 2600px;    
     background-color: var(--prussianblue);
     background-image: url(../../layoutimages/blueskywithclouds.jpeg);
+    background-image: url(../../layoutimages/enwikipedia_Thai_tattoo_Chiang_Mai_2005_058_red.jpg);
     background-size: cover;    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -50,8 +50,9 @@
     display: flex;
 
     padding: 10px 0 0 0; 
-    background-color: var(--blue100);
-    background-color: var(--prussianblue);
+    /* background-color: var(--blue100);
+    background-color: var(--prussianblue); */
+    background-color: var(--skin50);
     border-bottom: 1px solid var(--blue10);
 }
 
@@ -75,8 +76,8 @@
 .HolyGrail_footer {
   flex: 0 0 100px;
   display: flex;
-  background-color: red;
-  background-color: var(--prussianblue);
+  /* background-color: var(--prussianblue); */
+  background-color: var(--skin50);
   color: whitesmoke;
 }
 
