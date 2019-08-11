@@ -5,9 +5,11 @@
   flex-direction: column;
   justify-content: space-between;
   height: 450px;
+
   /* margin: 50px auto 20px auto; */
   background: linear-gradient(rgb(255, 245, 245) 70%, #edeeee );
-  background: linear-gradient(rgb(255, 245, 245) 70%, rgb(218, 218, 218) );  
+  background: linear-gradient(rgb(255, 245, 245) 70%, rgb(218, 218, 218) );
+
 }
 
 .first_home_section_figure {
@@ -44,10 +46,9 @@
     display: flex;
     align-items: flex-start;
     height: 200px;
-
     margin: 8px auto 8px auto;
-    background: linear-gradient(rgb(255, 245, 245) 70%, #edeeee );
-    background: linear-gradient(rgb(255, 245, 245) 60%, rgb(218, 218, 218) );
+    border-radius: 5px;
+    background: linear-gradient(var(--skinlight10) 60%, var(--skinlight30) );
   }
   
   .home_section_figure {

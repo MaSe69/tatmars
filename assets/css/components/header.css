@@ -58,17 +58,20 @@ li {
 }
 
 li:hover {
-  background-color: var(--blue10);
+  background-color: var(--skindark50);
+  background-color: red;
 }    
 
 a.nav_header, a.nav_header:visited {
+  font-family: 'Kalam';
+  color: var(--skindark50);
   color: black;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 a.nav_header:hover {
-  color: var(--blue90);
+  color: var(--skindark50);
 }    
 
 
@@ -76,7 +79,7 @@ a.nav_header:hover {
 .middle_layout {
   display: flex;
   max-width: 2600px;
-  background-color: var(--blue10);
+  /* background-color: var(--blue10); */
   color: black;
   line-height: 1.65;
   margin: 0px 0px 0px 0px;
