@@ -1,5 +1,5 @@
 ---
-layout: level1
+layout: page
 title: LD-Scope
 meta: Overview Meta
 permalink: /scope/

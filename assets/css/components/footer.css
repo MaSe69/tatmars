@@ -17,7 +17,8 @@
   }
 
   h3.footer {
-    color: whitesmoke;
+    font-size: 14px;
+    color: black
   }
 
   ul.footer {
@@ -31,7 +32,7 @@
     text-align: left;
     font-size: 10px;
     font-weight: 100;
-    color: white;
+    color: black;
   }
   
   a.footer:hover {

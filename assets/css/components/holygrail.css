@@ -38,7 +38,7 @@
     min-height: 100vh;
     max-width: 2600px;    
     background-color: var(--prussianblue);
-    background-image: url(../../layoutimages/blueskywithclouds.jpeg);
+    background-color: var(--skin10);
     background-image: url(../../layoutimages/enwikipedia_Thai_tattoo_Chiang_Mai_2005_058_red.jpg);
     background-size: cover;    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -52,8 +52,9 @@
     padding: 10px 0 0 0; 
     /* background-color: var(--blue100);
     background-color: var(--prussianblue); */
-    background-color: var(--skin50);
-    border-bottom: 1px solid var(--blue10);
+    background-color: var(--skintan30);
+    color: black;
+    border-bottom: 3px dashed var(--skindark30);
 }
 
 .HolyGrail_member {
@@ -61,7 +62,8 @@
     flex: 0 0 10px;
     display: flex;
 
-    margin: 20px 0 0 0;     
+    margin: 20px 0 0 0; 
+
 }
 
 .HolyGrail_middle {
@@ -74,7 +76,7 @@
   flex: 0 0 100px;
   display: flex;
   /* background-color: var(--prussianblue); */
-  background-color: var(--skin50);
+  background-color: var(--skintan30);
   color: whitesmoke;
 }
 
@@ -82,6 +84,7 @@
   flex: 0 0 20px;
   display: flex;
   background-color:black ;
+  background-color:var(--skindark50);
   color: whitesmoke;
 }
 

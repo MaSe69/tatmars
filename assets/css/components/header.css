@@ -62,8 +62,7 @@ li:hover {
 }    
 
 a.nav_header, a.nav_header:visited {
-  color: white; 
-
+  color: black;
   font-size: 14px;
   font-weight: 400;
 }

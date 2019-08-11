@@ -1,5 +1,5 @@
 ---
-layout: level1
+layout: page
 title: Structure
 meta: Overview Meta
 permalink: /structure/
