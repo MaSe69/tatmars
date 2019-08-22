@@ -1,0 +1,161 @@
+:root { 
+  --margin_xs:    8px!important;
+  --margin_s:   16px!important;
+  --margin_m:     32px!important;
+  --margin_l:     64px!important;
+  --margin_l_neg: -60px!important;
+
+  --blue100: #051243!important;
+  --blue90: #061f80!important;
+  --blue80: #0530ad!important;
+  --blue70: #054ada!important;
+  --blue60: #0062ff!important;
+  --blue50: #408bfc!important;
+  --blue40: #6ea6ff!important;
+  --blue30: #97c1ff!important;
+  --blue20: #c9deff!important;
+  --blue10: #edf4ff!important;
+}
+
+/* Cards */
+
+.card-deck {
+  margin-top: var(--margin_m);
+  margin-bottom: var(--margin_m);
+  margin-left: var(--margin_m);
+  margin-right: var(--margin_l);
+}
+
+.card {
+  /* width: 18rem;  Does not work, only card mb  */
+  background-color: var(--blue10);
+  box-shadow: 5px 8px var(--blue80);  
+  border-radius: 5px;
+}
+
+.card-header {
+  background-color: var(--blue30);
+  color:            var(--blue90);
+  text-align: center;  
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.125);   */
+} 
+
+.card-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  font-size: 1.7em;
+  font-weight: 900;
+  color:            var(--blue90);
+  margin-bottom: 0.15rem;  
+}
+
+.card-body {
+    background-color: var(--card-color);  
+    text-align: center;
+    color: var(--card-bg-color); 
+    font-size: 1.2em;
+    padding-bottom: 1.25rem;
+  } 
+
+.card-footer {
+    background-color:var(--card-bg-color);
+    color: var(--card-color); 
+    text-align: center; 
+}
+.card_button { 
+    padding: 0.5em 32px;
+    display: inline-block;
+    box-shadow: 5px 8px var(--blue10);  
+    border-radius: 5px;    
+    
+    background-color: var(--blue80);
+    color:            var(--blue10);
+    text-align: center;
+    text-decoration: none; 
+    font-size: 1.1em;
+    font-weight: 900;    
+  }
+
+  .card_button:hover { 
+    background-color: var(--blue30);
+  }
+
+  a:visited {
+    color:           var(--blue10);
+    text-decoration: underline;
+  }  
+
+
+/* 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 66%;
+  /* height: auto; */
+/* }
+
+.imgmase {
+  /* width:auto; 
+  height:300px; */
+  /* width: 50%;    
+  opacity: 0.99;
+  /* border-radius: 1%; */
+  /* border-radius: 8px;
+  box-shadow: 10px 10px grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* To be deleted */
+/* 
+
+.panel-container{
+    background: none;    
+    border:2px;
+    margin-top:5vh;
+    -webkit-box-shadow: 15px 17px 13px 17px rgba(0,0,0,0.63);
+    -moz-box-shadow: 15px 17px 13px 17px rgba(0,0,0,0.63);
+    box-shadow: 15px 17px 13px 17px rgba(0,0,0,0.63);
+}
+
+
+.panel-heading{
+    background:#1e5348!important;
+    color: white;
+    opacity: 0.8;    
+}
+
+.panel-transparent .panel-body{
+    background: rgba(46, 51, 56, 0.2)!important;
+    color: black;
+    font-size: 1.5em;    
+    opacity: 0.9;      
+}
+
+.label-login {
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.button-login { 
+    background-color: var(--main-bg-color);
+    opacity: 0.8;  
+    border: black;
+    color: whitesmoke;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: 900; 
+    font-size: 1.3em;
+    width: 100%;   
+  }
+
+

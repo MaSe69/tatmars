@@ -1,0 +1,5 @@
+.background_private {
+    background-color: var(--prussianblue);
+    background-image: url(../../images/img_layout/background_water.jpg);
+    background-size: cover;
+  }

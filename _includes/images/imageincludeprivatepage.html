@@ -1,0 +1,15 @@
+{% capture imagePath %}
+{% endcapture %}
+{% capture imageCaption %}
+{% endcapture %}
+
+<figure class="page_figure_container">
+    <div class = "page_image_container">
+        <img src="{{ site.baseUrl }}../../9a0764b2ecd7c88d4e59fdad3580dcfd96914b29/images_private/img_private/{{ include.imagePath  }}"
+        alt="{{ include.imagePath }}"
+        style="width:400px">
+    </div>
+    <div class="page_caption">
+        {{ include.imageCaption }}
+    </div>
+</figure>

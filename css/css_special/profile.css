@@ -1,0 +1,31 @@
+.background_profile {
+  background-color: var(--prussianblue);
+  background-image: url(../../images/img_layout/background_water.jpg);
+  background-size: cover;
+}
+
+.profile_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 50px auto 0px auto;
+  padding: 20px;
+
+  height: 300px;
+  width: 600px;
+  background-color:  whitesmoke;
+  color: black;
+  opacity: 0.95;
+  border: 2px solid black;
+}
+
+legend {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  padding-left: 10px;
+  width: 100px;
+}
+

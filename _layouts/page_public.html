@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include page_public/10_head_page.html %}    
+<body class="HolyGrail">
+
+<header class="HolyGrail_header">
+    <div class="column_center">
+        {% include public/20_header.html %}                
+    </div>
+    <div class="column_left"></div>
+    <div class="column_right"></div> 
+</header>
+
+<main class="HolyGrail_middle_public_page">
+    <div class="column_center">
+        <div class="HolyGrail_center">
+          {{ content }}
+        </div>
+    </div>
+    <div class="column_left"></div>
+    <div class="column_right"></div> 
+</main>
+
+<footer class="HolyGrail_footer">
+    <div class="column_center">
+        {% include public/70_footer.html %}
+    </div>
+    <div class="column_left"></div>
+    <div class="column_right"></div> 
+</footer>
+
+<div class="HolyGrail_final">
+    <div class="column_center">
+        {% include public/90_final.html %}
+    </div>
+    <div class="column_left"></div>
+    <div class="column_right"></div> 
+</div>
+
+</body>
+</html>

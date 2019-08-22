@@ -1,0 +1,42 @@
+:root { 
+  --blue10: #edf4ff!important;
+  --blue20: #c9deff!important;
+  --blue30: #97c1ff!important;
+  --blue40: #6ea6ff!important;
+  --blue50: #408bfc!important;
+  --blue60: #0062ff!important;
+  --blue70: #054ada!important;
+  --blue80: #0530ad!important;
+  --blue90: #061f80!important;
+  --blue100: #051243!important;
+  --prussianblue: #113265!important;
+
+  --card-bg-color: #061f80!important;
+  --card-color: #dfe9e7!important;
+  --text-color: black; 
+  --fullstack-red:  rgb(160, 79, 79);
+
+  --skin10: #FFDBAC;
+  --skin20: #F1C27D;
+  --skin30: #E0AC69;
+  --skin40: #C68642;
+  --skin50: #8D5524;
+
+  --skinlight10: #fdf5e2;
+  --skinlight20: #fdf1cb;
+  --skinlight30: #fbe5ba;
+  --skinlight40: #fddcb4;
+  --skinlight50: #ffd6a4;
+  
+  --skintan10: #f7c19b;
+  --skintan20: #ebab7f;
+  --skintan30: #d39972;
+  --skintan40: #bd8966;
+
+  --skindark10: #603909;
+  --skindark20: #3e2b13;
+  --skindark30: #894c1a;
+  --skindark40: #7e4d1c;
+  --skindark50: #583512;
+
+  }

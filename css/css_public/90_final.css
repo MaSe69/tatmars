@@ -1,0 +1,38 @@
+.final_background {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+  line-height: 1.65;
+}
+
+.final_col_left {
+  flex: 0 0 40%;
+  order: 1;
+}
+
+.final_col_right {
+  flex: 1;
+  flex: 0 0 40%;
+  order: 2;
+
+  text-align: right;
+}
+
+li.final {
+  color: white;
+}
+li.final:hover {
+  color: white;
+  background-color: black;
+}
+
+a.final {
+  font-size: 10px;
+  font-weight: 100;
+  color: white;
+}
+
+a.final:hover {
+  text-decoration: underline;
+}     
