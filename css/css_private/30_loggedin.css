@@ -15,9 +15,7 @@
   display: flex;
   justify-content: flex-end;
 }
-.login_spacer {
-  flex-basis: 1 1 200px; /* Parent: login_container */
-}
+
 .login_register {
   flex-basis: 1 1 200px; /* Parent: login_container */
 }
@@ -26,7 +24,7 @@
   color: var(--prussianblue);
   padding: 2px;
 }
-.loginbutton {
+/* .loginbutton {
   height:26px;
   width: 60px;
   padding: 0px auto 6px auto;
@@ -40,7 +38,7 @@
   color: white;
   font-weight: 400;
   border: 1x solid black;
-}
+} */
 
 .form_email {
   flex: 1;

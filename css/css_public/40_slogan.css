@@ -1,0 +1,41 @@
+.slogan_container {
+  display: flex;
+  flex-direction: row;
+  min-height: 120px;
+  justify-content: space-between;
+  color: black;
+}
+
+.slogan_left {
+  flex-basis: 0 0 100px; /* Parent: slogan_container */
+  text-align: left;
+}
+.slogan_center {
+  flex: 1; 
+  background-color: black;
+  background-color: var(--skintan30);
+  padding: 20px 0px 0px 0px;
+  opacity: 0.9;
+  box-shadow: 15px 17px 13px 17px rgba(187, 181, 181, 0.63);
+  box-shadow: 0px 5px 15px 0px rgba(218, 228, 240, 0.93);
+  border-radius: 5px;
+  
+}
+.slogan_right {
+  flex-basis: 0 0 100px; /* Parent: slogan_container */
+  text-align: left;
+}
+.slogan {
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: black;
+}
+.sub_slogan {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+}

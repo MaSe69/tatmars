@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <link rel="icon" type="image/png" href="{{ site.baseUrl }}../images/img_layout/k8sfavicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ site.baseUrl }}../images/img_layout/logodrmaseway.png" sizes="32x32">
     <title>Register</title>
 
     <!-- CSS - Bootstrap 4-->
@@ -28,28 +28,30 @@
 <body class="HolyGrail_register">
 
     <div class="column_center">
-        <div class="register_container">
+        <div class="register_box">
+            <div id="credentialsChecker" class="credentialsChecker">Please, enter with your new credentials!</div>
             <form id="registration_form" class="form_input" method="POST" action="#">
-                <input class="loginfield" type="email" id="newemail" name="newemail" placeholder="Your Email"
-                    onfocus="this.value=''">
-                <input class="loginfield" type="password" id="newpassword" name="newpassword"
-                    placeholder="Your New Password" onfocus="this.value=''" onfocus="passwordnotok.value=''">
-                <input class="loginfield" type="password" id="password_repeat" name="password_repeat"
-                    placeholder="Repeat password" onfocus="this.value=''" onfocus="passwordnotok.value=''">
+                <div class="register_element">
+                    <input class="input_field" type="email" id="newemail" name="newemail" placeholder="Your Email"
+                        onfocus="this.value=''">
+                </div>
+                <div class="register_element">
+                    <input class="input_field" type="password" id="newpassword" name="newpassword"
+                        placeholder="Your New Password" onfocus="this.value=''" onfocus="passwordnotok.value=''">
+                </div>
+                <div class="register_element">
+                    <input class="input_field" type="password" id="password_repeat" name="password_repeat"
+                        placeholder="Repeat password" onfocus="this.value=''" onfocus="passwordnotok.value=''">
+                </div>
             </form>
-            <div class="passwordnotok" id="passwordnotok"></div>
-            <div class="passwordok" id="passwordok"></div>
-            <button class="loginbutton" onclick="registerNewUser()">
-                Register</button>
+
+            <div class="register_button_outside">
+                <button onclick="registerNewUser()" class="register_button_inside">Register</button>
+            </div>
         </div>
     </div>
     <div class="column_left"></div>
     <div class="column_right"></div>
-
-    <script>
-  
-    </script>
-
     </div>
 </body>
 

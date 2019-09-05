@@ -1,0 +1,23 @@
+{% capture textFile %}
+{% endcapture %}
+{% capture imagePath %}
+{% endcapture %}
+
+<div class="home_section_body">
+        <p class="super">
+            Knowledge and Skills
+        </p>
+        <p class="headline">
+            Fundamentals on Docker + Kubernetes
+            </p>
+        <p class="teasertext">
+            You need to have a solid understanding of processes and how Docker groups these processes 2... |&nbsp;<strong>more</strong>
+        </p>
+        <!-- {{ include.content }} -->
+        <!-- {{ include text.md }} -->
+        {{ content }}
+        {{ include.imagePath }}
+        {{ include.textFile }}
+        {{ content.include.textFile}}
+
+</div>

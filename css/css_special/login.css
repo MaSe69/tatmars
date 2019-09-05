@@ -10,40 +10,6 @@ label {
 
 }
 
-.spacer {
-  padding:0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  height: 40px;
-}
-
-.form_input {
-  flex: 1;
-  width: 250px;
-  margin: 20px auto 0px auto;
-  text-align: center;
-}
-
-.loginfield {
-  height:26px;
-  color: var(--prussianblue);
-}
-
-.loginbutton {
-  flex: 0 0 10px;
-  width: 150px;
-  text-align: center;
-  margin: 0px auto 0px auto;
-
-  background-color: white;
-  background-image: linear-gradient(to bottom, black 80%, white);
-  background-image: linear-gradient(to bottom, var(--prussianblue) 90%, white);
-  background-image: linear-gradient(to bottom, var(--blue40), var(--prussianblue));
-  color: white;
-  font-size: 15px;
-  font-weight: 500;
-  border: 2px solid var(--blue100);
-}
-
 .HolyGrail_header {
   position: sticky;
   flex: 0 0 10px;
@@ -75,20 +41,6 @@ label {
   margin-bottom: 32px;
   /* background-image: url(../../images/img_layout/blueskywithclouds.jpeg); */
   background-color: red;
-}
-
-.HolyGrail_footer {
-  flex: 0 0 100px;
-  display: flex;
-  background-color: var(--prussianblue);
-  color: whitesmoke;
-}
-
-.HolyGrail_final {
-  flex: 0 0 20px;
-  display: flex;
-  background-color: black;
-  color: whitesmoke;
 }
 
 .column_center {

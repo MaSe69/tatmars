@@ -22,7 +22,3 @@ function toPrivateArea() {
     window.location.replace("9a0764b2ecd7c88d4e59fdad3580dcfd96914b29/private");
 }
 
-function toRegister() {
-    var path = "register/";
-    window.location.replace(path);
-}

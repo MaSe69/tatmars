@@ -7,19 +7,18 @@
   max-width: 3840px;
   background-color: var(--skin10);
   background-image: url(../../images/img_layout/enwikipedia_Thai_tattoo_Chiang_Mai_2005_058_red.jpg);
-  background-size: cover;    
-  color: black;
+  background-size: cover;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-family: 'Kalam';
+  font-family: 'Ubuntu';
 }
 
 .HolyGrail_header {
   position: sticky;
   flex: 0 0 10px;
   display: flex;
-  padding: 10px 0 0 0; 
+  padding: 10px 0 0 0;
   background-color: var(--skintan30);
-  border-bottom: 3px dashed var(--skindark30);
+  border-bottom: 3px dashed black;
 }
 
 .HolyGrail_login {
@@ -27,6 +26,16 @@
   flex: 0 0 32px;
   display: flex;
   margin: 10px 0 0 0;
+}
+
+.HolyGrail_slogan {
+  flex: 0 0 32px;
+  display: flex;
+}
+.HolyGrail_slogan {
+  flex: 0 0 32px;
+  display: flex;
+  margin: 30px 0 50px 0;
 }
 
 .HolyGrail_middle {

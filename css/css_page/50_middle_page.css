@@ -1,32 +1,29 @@
-.HolyGrail_middle_public_page {
-  flex: 1;
-  display: flex;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  background-color: rgb(235, 241, 235);
-}
-.HolyGrail_middle_private_page {
+.HolyGrail_middle_public_page, .HolyGrail_middle_private_page {
   flex: 1;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: rgb(255, 254, 253);
+  background-color: white;
+}
+
+.HolyGrail_middle_private_page {
+  background-color: whitesmoke;
 }
 
 .page_figure_container {
   display: block;
   margin: 20px auto 40px auto;
-  width: 480px;
+  width: 600px;
   text-align: center;
   border-style: solid;
   border-color: white;
   border-width: 3px;
-  box-shadow: 15px 17px 13px 17px rgba(187, 181, 181, 0.63);
+  box-shadow: 15px 17px 13px 17px rgba(216, 221, 223, 0.63);
 }
 
 .page_image_container {
   display: block;
-  margin: 30px auto 20px auto;
+  margin: 20px 20px 20px 20px;
 }
 
 .page_caption {
